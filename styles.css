@@ -1,0 +1,120 @@
+* {
+	font-family:  Arial, sans-serif;
+	font-size: 13px;
+}
+
+#footer {
+	clear: left;
+/*	
+	position: fixed;
+	bottom: 0;
+*/
+	border: 2px solid red;
+	width: 100%;
+	
+
+	
+}
+
+#searchtoolsheader {
+	clear: left;
+	border: 2px solid blue;
+	margin-left: 110px; /* Should match up with the search field */
+
+}
+
+#searchfield {
+	width: 570px;
+	height: 24px;
+	margin-left: 20px;
+	
+}
+
+#headerright > * {
+	
+
+	display: inline-block;
+	padding-left: 15px;
+	vertical-align: middle;
+}
+
+#headerright {
+	float: right;
+	border: 2px solid red;
+}
+
+.searchtoolsheaderitem {
+	color: gray;
+	display: inline-block;
+	font-family: arial, sans-serif;
+	font-size: 13px;
+	padding: 14px;
+}
+
+#searchresults {
+	clear: left;
+	padding-left: 120px;
+	border: 2px solid green;
+
+}
+
+#relatedsearches {
+	clear: left;
+	border: 2px solid violet;
+	font-family: arial, sans-serif;
+	font-size: 13px;
+	color: #1A0DAB;
+	font-weight: 400;
+	padding-left: 120px;
+
+}
+
+#relatedsearches > p {
+	font-size: 18px;
+	font-family: arial, sans-serif;
+	font-weight: 400;
+	color: #808080;
+}
+
+#pageselector {
+	clear: left;
+	border: 2px solid orange;
+
+}
+
+
+
+#header {	
+	float: left;
+	top: 0;
+	border: 2px solid red;
+	width: 100%;
+	padding: 15px 0px 15px 0px;
+	
+}
+
+img {
+	vertical-align: middle; /* not work */
+}
+
+.resulttitle {
+	font-size: 18px;
+	font-family: arial, sans-serif;
+	font-weight: 400;
+	color: #1A0DAB;
+}
+
+.resulturl {
+	font-size: 16px;
+	font-family: arial, sans-serif;
+	font-weight: 400;
+	color: #006621;
+}
+
+.resultsummary {
+	font-size: 13px;
+	font-family: arial, sans-serif;
+	font-weight: 400;
+	color: #545454;
+	padding-bottom: 25px;
+}
