@@ -9,18 +9,57 @@
 	position: fixed;
 	bottom: 0;
 */
-	border: 2px solid red;
+	border-top: 1px solid #E4E4E4;
 	width: 100%;
+	background-color: #F2F2F2;
+	color: #333;
 	
 
 	
 }
 
+#footer > div {
+	margin-left: 120px;
+	margin-top: 20px;
+}
+
+#footer span {
+	color: #AAA;
+}
+
+#footerlinks > div {
+	display: inline-block;
+	margin-right: 30px;
+}
+
+#tinycircle {
+	background-color: #9A9FA4;
+	width: 10px;
+	height: 10px;
+	border-radius: 10px;
+	display: inline-block;
+	margin-right: 5px;
+}
+
+#numberresults {
+	padding: 10px 0px 10px 0px;
+	color: #808080;
+	font-family: arial, sans-serif;
+	font-size: 13px;
+
+}
+
 #searchtoolsheader {
 	clear: left;
-	border: 2px solid blue;
+	/* border: 2px solid blue; */
 	margin-left: 110px; /* Should match up with the search field */
 
+}
+
+#web {
+	border-bottom: 4px solid #DD4B39;
+	color: #DD4B39;
+	font-weight: 700;
 }
 
 #searchfield {
@@ -40,7 +79,7 @@
 
 #headerright {
 	float: right;
-	border: 2px solid red;
+	/* border: 2px solid red; */
 }
 
 .searchtoolsheaderitem {
@@ -54,13 +93,13 @@
 #searchresults {
 	clear: left;
 	padding-left: 120px;
-	border: 2px solid green;
+	/* border: 2px solid green; */
 
 }
 
 #relatedsearches {
 	clear: left;
-	border: 2px solid violet;
+	/* border: 2px solid violet; */
 	font-family: arial, sans-serif;
 	font-size: 13px;
 	color: #1A0DAB;
@@ -78,7 +117,11 @@
 
 #pageselector {
 	clear: left;
-	border: 2px solid orange;
+	/* border: 2px solid orange; */
+	position: relative;
+	top: -20px;
+	left: 210px;
+	padding: 20px 0px 20px 0px;
 
 }
 
@@ -87,15 +130,62 @@
 #header {	
 	float: left;
 	top: 0;
-	border: 2px solid red;
+	/* border: 2px solid red; */
 	width: 100%;
 	padding: 15px 0px 15px 0px;
+	background-color: #F1F1F1;
 	
 }
 
 img {
 	vertical-align: middle; /* not work */
 }
+
+#pageselector > div {
+	display: inline-block;
+	margin-left: -4px; /* ? */
+}
+
+#pageselector > .G {
+	/* border: 2px solid red; */
+	position: relative;
+	top: -4px;
+}
+
+#pageselector > .o,  #pageselector > .yellow_o{
+	/* border: 2px solid red; */
+	position: relative;
+	top: 19px;
+}
+
+#pageselector > .gle {
+	/* border: 2px solid red; */
+	position: relative;
+	top: 29px;
+}
+
+#Next {
+	position: relative;
+	left: 52px;
+	color: #1A0DAB;
+	font-weight: 700;
+}
+
+
+.pagenum {
+	text-align: center;
+	position: relative;
+	top: 10px;
+	color: #1A0DAB;
+
+}
+
+/* to simulate the first page number being selected */
+.o > .pagenum {
+	color: black;
+	font-weight: 700;
+}
+
 
 .resulttitle {
 	font-size: 18px;
@@ -117,4 +207,13 @@ img {
 	font-weight: 400;
 	color: #545454;
 	padding-bottom: 25px;
+}
+
+table span {
+	font-weight: 700;
+}
+
+td:nth-child(2) {
+	padding-left:20px; /* adding some spacing between columns in the related searches table */
+	
 }
